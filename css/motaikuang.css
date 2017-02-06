@@ -1,0 +1,63 @@
+img{
+	outline: none;
+}
+#mtkw{
+	position: fixed;
+	background: rgba(0,0,0,0.5) !important;
+	background: #000000;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+	width: 100%;
+	left: 0;
+	top: 0;
+	text-align: center;
+	z-index: 999999;
+}
+#clockWrap{
+	width: 400px;
+	height: 105px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	overflow: hidden;
+}
+#toClose{
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	cursor: pointer;
+}
+#toClose:hover{
+	opacity: 0.7 !important;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+#toClose::before {
+    content: "\2716";
+}
+.clockC{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#ConfirmButton{
+	display: block;
+	margin: 0 auto;
+	width: 60px;
+	height: 24px;
+	line-height: 24px;
+	background: #8dc153;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+#ConfirmButton:hover{
+	opacity: 0.7 !important;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
